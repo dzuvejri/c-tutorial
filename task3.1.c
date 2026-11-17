@@ -1,0 +1,13 @@
+#include <stdir.h>
+
+int main () {
+    int items = 46;
+    float cost_per_item = 9.99;
+float total_cost = items * cost_per_item;
+char currency = '$';
+
+printf("Number of items: %d\n", items);
+printf("Cost per item: %.2f %c\n", cost_per_item, currency);
+printf("Total cosr: %f %c\n", total_cost, currency);
+return 0;
+}
